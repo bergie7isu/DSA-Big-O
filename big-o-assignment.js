@@ -194,3 +194,45 @@
     };
     console.log(factorialIterative(5));
     console.log('-------------------------------');
+
+//13. Recursive Big O
+    //1. Counting Sheep
+        //Linear time O(n) - one recursive call per input before getting to base case
+    //2. Power Calculator
+        //Linear time O(n) - one recursive call per input before getting to base case
+    //3. Reverse String
+        //Linear time O(n) - one recursive call per input before getting to base case
+    //4. nth Triangular
+        //Linear time O(n) - one recursive call per input before getting to base case
+    //5. String Splitter
+        //Linear time O(n) - one recursive call per input before getting to base case
+    //6. Fibonacci
+        //Exponential time O(2^n) - two recursive calls per input before getting to base case
+    //7. Factorial
+        //Linear time O(n) - one recursive call per input before getting to base case
+    //8. Find a way out of the maze
+        //Exponential time O(2^n) - two recursive calls per input before getting to base case
+    //9. Find ALL the ways out of the maze
+        //Exponential time O(4^n) - four recursive calls per input before getting to base case
+    //10. Anagrams
+        //Polynomial time O(n^2) - one recursive call per input, but the recursive call is inside a loop
+    //11. Organization Chart
+        //Polynomial time O(n^2) - one recursive call per input, but the recursive call is inside a loop
+    //12. Binary Representation
+        //Logarithmic time O(log(n)) - remaining input to analyze is cut in half with each recursive call
+
+//14. Iterative Big O
+    //1. Counting Sheep
+        //Linear time O(n) - one loop through all the inputs
+    //2. Power Calculator
+        //Linear time O(n) - one loop through all the inputs
+    //3. Reverse String
+        //Linear time O(n) - one loop through all the inputs
+    //4. nth Triangular
+        //Linear time O(n) - one loop through all the inputs
+    //5. String Splitter
+        //Linear time O(n) - one loop through all the inputs
+    //6. Fibonacci
+        //Linear time O(n) - one loop through all the inputs
+    //7. Factorial
+        //Linear time O(n) - one loop through all the inputs
